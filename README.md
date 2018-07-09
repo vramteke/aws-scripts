@@ -17,8 +17,8 @@ Pre-reqs:
 
 How to execute the script :
 ===========================
-$ pipenv run python awsmm.py <command> [list,start,stop] [--project=<Project tag>] 
-  <command> is either instances, volumes or snapshots
-  list, start or stop based off the command selected
+$ pipenv run python awsmm.py command [list,start,stop] [--project=<Project tag>] 
+    command is either instances, volumes or snapshots
+    list, start or stop based off the command selected
 
 
