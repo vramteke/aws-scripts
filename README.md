@@ -3,6 +3,10 @@ Purpose
 =======
 These are scripts to manage and maintain AWS infrastructure.
 
+Assumptions:
+============
+Project tag is used to tag all resources.If not, the script would return all resources by default.
+
 Pre-reqs:
 ========
 
@@ -14,6 +18,7 @@ Pre-reqs:
 How to execute the script :
 ===========================
 $ pipenv run python awsmm.py
-$ pipenv run python awsmm.py --project=<Project tag> ## to list instances belonging to a parituclar project
+$ pipenv run python awsmm.py <command> --project=<Project tag> 
+  where <command> is either list, start or stop and --project is optional.
 
 
